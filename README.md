@@ -3,6 +3,10 @@ List of all events in IPFS
 
 ## Events
 
+X-Begin means the event started
+
+X means the event completed
+
 |          Key                    | Description       | Notes            |
 | ------------------------------- | ----------------- | ---------------- |
 | Bitswap.ProvideWorker.Loop      |                   |                  |
@@ -15,18 +19,11 @@ List of all events in IPFS
 | dhtReceivedMessage              |                   |                  |
 | dhtSentMessage                  |                   |                  |
 | findPeerSingle                  |                   |                  |
-| findPeerSingleBegin             |                   |                  |
-| getClosestPeers                 |                   |                  |
-| getClosestPeersBegin            |                   |                  |
-| handleFindPeer                  |                   |                  |
-| handleFindPeerBegin             |                   |                  |
-| handleGetProviders              |                   |                  |
-| handleGetProvidersBegin         |                   |                  |
+| getClosestPeers                 | Find closest peer for key in DHT | |
+| handleFindPeer                  | Help peer find another peer |                  |
+| handleGetProviders              | Help someone find peer who has hash |                  |
 | interfaceListenAddresses        |                   |                  |
 | periodicBootstrap               |                   |                  |
-| periodicBootstrapBegin          |                   |                  |
 | provide                         |                   |                  |
-| provideBegin                    |                   |                  |
 | secureHandshake                 |                   |                  |
-| secureHandshakeBegin            |                   |                  |
 | updatePeer                      |                   |                  |
